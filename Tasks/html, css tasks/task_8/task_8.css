@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(247,87,97);
+    background: linear-gradient(135deg, rgba(247,87,97,1) 0%, rgba(173,51,82,1) 100%);
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+h2{
+    color: #ca4158;
+    text-align: center;
+    font-size: 2em;
+}
+.form{
+     position: absolute;
+     padding: 50px;
+     top: 20%;
+     left: 35%;
+     background-color: white;
+     border-radius: 10px;
+}
+input.username_box{
+    width: 300px;
+    padding: 15px;
+    margin: 10px;
+    font-size: 20px;
+} 
+input.email_box{
+    width: 300px;
+    padding: 15px;
+    margin: 10px;
+    font-size: 20px;
+}
+input.password_box{
+    width: 300px;
+    padding: 15px;
+    margin: 10px;
+    font-size: 20px;
+}
+.button{
+    background: rgb(247,87,97);
+    background: linear-gradient(135deg, rgba(247,87,97,1) 0%, rgba(173,51,82,1) 100%);
+    color: white;
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+input:focus{
+    border-color: #ca4158;
+    outline: none;
+}
+div.relative{
+    position: relative;
+}
+.fa-user{
+    position: absolute;
+    color: gray;
+    left: 88%;
+    bottom: 38%;
+}
+.fa-envelope{
+    position: absolute;
+    color: gray;
+    left: 79%;
+    bottom: 43%;
+}
+.fa-lock{
+    position: absolute;
+    color: gray;
+    left: 87%;
+    bottom: 37%;
+}
